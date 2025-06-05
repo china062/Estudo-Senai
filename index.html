@@ -3,24 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="container-title">
       <h1>Lista de Tarefas</h1>
       <input
-        id="input_text"
+        id="inputText"
         type="text"
         placeholder="Digite alguma tarefa a realizar..."
       />
-      <button id="input_button">Enviar</button>
+      <button onclick="addTask()" id="input_button">Enviar</button>
     </div>
     <div class="container-task">
-      <ul id="ulTask">
-        Olá
-      </ul>
+      <ul id="ulTask"></ul>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
